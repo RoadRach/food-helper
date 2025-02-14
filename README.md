@@ -1,10 +1,13 @@
 # Food Inventory Helper
 This application is aiming to help users to track food inventory and store recipes.
 
-Further improvements are as follows:
+Requirements are as follows:
 
-- Add in expiry of dates, set notifications on expiring foods
-- For perishable foods (ex. vegetables) with no explicit expiry dates, system should automatically suggest an expiry date
-- On the front page of the app, app should be able to automatically suggest what to cook today based on what is in the house
-- Frequency of recommendation should also take note of frequency of recipe used, and from time to time it should also 
-suggest new recipes to try
+| ID | Category | Requirement | Comments |
+| -- | -------- | ----------- | -------- |
+| 01 | User Interface  | Food Helper should allow users to key in ingredients that are in their kitchen, and save them in the database | |
+| 02 | User Interface | Food Helper should allow users to remove ingredients that are no longer in the kitchen, and remove them from the database | |
+| 03 | User Interface | Food Helper should notify users on expiring ingredient | |
+| 04 | Recommendation System | Food Helper shoul recommend food recipe based on what is available in the kitchen| |
+| 05 | Recommendation System | Food Helper should recommend users new recipes to try, based on the history of recipe used and records of ingredients | |
+| 06 | User Interface | Food Helper should allow users to key in recipes, and save them in the database
